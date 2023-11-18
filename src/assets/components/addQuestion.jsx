@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './addQuestion.css';
-const dotenv = require("dotenv");
+import dotenv from  "dotenv";
 dotenv.config();
 export default function addQuestion() {
     const [statement, setStatement] = useState('');
