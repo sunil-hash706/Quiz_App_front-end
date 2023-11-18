@@ -1,7 +1,7 @@
 // import './JobCard.css';
 import { useEffect, useState } from "react";
 import QuestionCard from "./questionCard";
-const dotenv = require("dotenv");
+import dotenv from "dotenv";
 dotenv.config();
 export default function alQuestions() {
 
@@ -13,7 +13,7 @@ export default function alQuestions() {
     const [cnt, setCnt] = useState(1)
 
     const getQuestion = async () => {
-        let result = await fetch(process.env.URL+"/questions");
+        let result = await fetch(process.env.URL + "/questions");
         result = await result.json();
         setQuestions(result);
     };
