@@ -1,0 +1,36 @@
+.question{
+    margin: 0;
+    padding: 5%;
+    font-size: large;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    /* display: block; */
+}
+
+input{
+    height: 2rem;
+    margin: 5px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.statement{
+    font-size: large;
+    font-weight: bold;
+}
+button{
+    width: 100px;
+    margin: auto;
+    height: 3rem;
+    background-color: rgb(106, 216, 10);
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
